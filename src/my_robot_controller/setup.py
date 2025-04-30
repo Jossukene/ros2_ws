@@ -28,7 +28,9 @@ setup(
             "draw_circle = my_robot_controller.draw_circle:main",
             "pose_sub = my_robot_controller.pose_subscriber:main",
             "mapping = my_robot_controller.mapping:main",
+            'navigation = my_robot_controller.navigation:main',
             "mapping_improved = my_robot_controller.mapping_improved:main",
+            'aw_nav = my_robot_controller.aw_navigation:main',
         ],
     },
 )
