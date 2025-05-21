@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<testsuites name="/ros2_ws/autoware_map/scenario_test_runner" failures="0" errors="2" tests="2">
+  <testsuite name="sample" failures="0" errors="2" tests="2">
+    <testcase name="sample_1">
+      <error type="InternalError" message="failed to create guard condition: the given context is not valid, either rcl_init() was not called or rcl_shutdown() was called., at ./src/rcl/guard_condition.c:67" />
+    </testcase>
+    <testcase name="sample_0">
+      <error type="AutowareError" message="Simulator waited for the Autoware state to transition to WaitingForEngage, but time is up. The current Autoware state is EMERGENCY." />
+    </testcase>
+  </testsuite>
+</testsuites>

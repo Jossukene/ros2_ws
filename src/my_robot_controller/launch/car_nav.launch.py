@@ -29,7 +29,7 @@ def generate_launch_description():
 
    goal_pose_publisher = Node(
            package='my_robot_controller',
-           executable='av_nav',
+           executable='aw_nav',
            name='car_nav'
        )
   
